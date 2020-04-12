@@ -1,0 +1,6 @@
+update user set password=PASSWORD('root') where User='root';
+
+（如果提示password这列没有，则用这句：update mysql.user set authentication_string=password('root') where user='root'） 
+————————————————
+版权声明：本文为CSDN博主「Jonny_killer」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/Mr_fightingboy/java/article/details/79430717
